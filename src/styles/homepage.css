@@ -1,0 +1,77 @@
+/* Homepage css */
+.content-wrapper {
+    flex: 1; /* Fill remaining space */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .content{
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 4px 0px #00000040;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  width: 328px;
+  border-radius: 24px;
+  margin-top: 50px;
+  
+  }
+  
+  
+  .head-home {
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    border-radius: 24px; /* Set the border-radius to 24px */
+    color: white;
+  
+   
+    
+  }
+  
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    flex: 1;
+    font: normal normal normal 12px/16px Mulish;
+  letter-spacing: 0.01px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  
+  .percentage {
+    flex: 0 0 auto; /* This ensures that the percentage div doesn't grow or shrink */
+    color: #36A546;
+  }
+  
+  .bar {
+    height: 11px;
+  
+    background: #36A54680 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #36A546;
+  opacity: 1;
+  border-radius: 12px;
+  }
+  
+  
+  
+  

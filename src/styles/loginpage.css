@@ -1,0 +1,71 @@
+
+  /* LoginPage.css */
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:18px;
+  }
+  
+  .login-page form {
+    width: 80%;
+    max-width: 300px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .login-page input,
+  .login-page button,
+  .login-page div {
+    margin-bottom: 10px;
+    border-radius: 40px;
+    color: white;
+  }
+  
+  .input-group input{
+    width: 238px;
+height: 42px;
+/* UI Properties */
+background: #1F191966 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+mix-blend-mode: normal;
+opacity: 1;
+padding-left: 12px;
+  }
+  
+  .login-page img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .input-group input::placeholder {
+    color: white; /* Set placeholder text color to white */
+    padding-left: 12px;
+  }
+  
+ .login{
+    width: 238px;
+height: 42px;
+background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border: 2px solid #8CFF0026;
+opacity: 1;
+color: white;
+margin-top: 18px;
+ }
+
+ .forgot-pass{
+    text-align: center;
+font: normal normal normal 15px/20px Mulish;
+letter-spacing: 0.02px;
+color: #36A546 !important;
+opacity: 1;
+ }
+
+ .error-message{
+    color:red;
+ }
+  
+  
